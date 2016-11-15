@@ -1,1 +1,1 @@
-This is just a sample file to test branching in Git
+This is just a sample file to test branching in Git, some more changes

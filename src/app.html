@@ -1,0 +1,12 @@
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <header class="header">
+     <button class="btn" click.delegate="gotoHomeScreen()" ><span class="glyphicon ${activeRouteName == 'task-list' ? 'glyphicon-home' : 'glyphicon-arrow-left' }" aria-hidden="true"></span></button>
+     
+     <span>${title}</span>
+  </header>
+  <section class="body">
+    <router-view></router-view>
+  </section>
+  <footer class="footer"></footer>
+</template>

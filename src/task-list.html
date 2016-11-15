@@ -1,0 +1,19 @@
+<template>
+    <div class="list-group">
+        <a hammer-hold.call="navigateToEditScreen($event, task.id)" class="row list-group-item ${task.isComplete ? 'complete': '' }" repeat.for="task of tasks">
+            <!-- route-href="route: task-edit; params.bind:{id:task.id}" -->
+            <div class="col-xs-10">
+                            <h4 class="list-group-item-heading">${task.title}</h4>
+            <p class="list-group-item-text">
+                ${task.description}
+            </p>
+             <p class="list-group-item-text">
+                <span><b>Priority</b> : ${task.priority}</span><br><span style="margin-left:13px;"><b>Team</b> : ${task.department}</span> 
+            </p>
+            </div>
+            <div class="col-xs-2" click.trigger="delete(task)"><span class="glyphicon glyphicon-trash" aria-hidden="true" style="margin:25px;cursor:pointer;"></span></div>
+
+        </a>
+    </div>
+    <div class="float-btn" click.trigger="gotoAddScreen()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></div>
+</template>

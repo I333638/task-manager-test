@@ -1,4 +1,1 @@
 This is just a sample file to test branching in Git, some more changes
-
-
-Adding some more changes

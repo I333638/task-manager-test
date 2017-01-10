@@ -1,0 +1,12 @@
+diff a/src/getAllSample.txt b/src/getAllSample.txt	(rejected hunks)
+@@ -4,4 +4,8 @@
+ where it all went
+ 
+ 
+-yet another line
+\ No newline at end of file
++yet another line
++
++
++After stash
++Lets change without commit to switch branch

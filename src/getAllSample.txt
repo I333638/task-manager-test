@@ -5,7 +5,3 @@ where it all went
 
 
 yet another line
-
-
-After stash
-Lets change without commit to switch branch

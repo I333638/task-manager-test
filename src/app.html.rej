@@ -1,0 +1,7 @@
+diff a/src/app.html b/src/app.html	(rejected hunks)
+@@ -10,3 +10,4 @@
+   </section>
+   <footer class="footer"></footer>
+ </template>
++<!-- changes A -->
+\ No newline at end of file
